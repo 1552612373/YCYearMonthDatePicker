@@ -7,6 +7,7 @@
 
 ## How To Use
 
+[![Platform](https://github.com/1552612373/YCYearMonthDatePicker/blob/master/demo.gif)](https://github.com/1552612373/YCYearMonthDatePicker/blob/master/demo.gif)
 ```
 YCYearMonthDatePicker *picker = [YCYearMonthDatePicker new];
 picker.dateComfirmBlock = ^(NSString * _Nonnull year, NSString * _Nonnull month) {
