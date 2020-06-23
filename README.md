@@ -5,9 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/YCYearMonthDatePicker.svg?style=flat)](https://cocoapods.org/pods/YCYearMonthDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/YCYearMonthDatePicker.svg?style=flat)](https://cocoapods.org/pods/YCYearMonthDatePicker)
 
+## introduce
+
+年月选择器
+
+一行代码完成基本需求
+
 ## How To Use
 
-[![Platform](https://github.com/1552612373/YCYearMonthDatePicker/blob/master/demo.gif)](https://github.com/1552612373/YCYearMonthDatePicker/blob/master/demo.gif)
+<img src="https://github.com/1552612373/YCYearMonthDatePicker/blob/master/demo.gif" width=200 alt="样式">
+
 ```
 YCYearMonthDatePicker *picker = [YCYearMonthDatePicker new];
 picker.dateComfirmBlock = ^(NSString * _Nonnull year, NSString * _Nonnull month) {
