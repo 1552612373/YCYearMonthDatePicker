@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/YCYearMonthDatePicker.svg?style=flat)](https://cocoapods.org/pods/YCYearMonthDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/YCYearMonthDatePicker.svg?style=flat)](https://cocoapods.org/pods/YCYearMonthDatePicker)
 
-## Example
+## How To Use
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+YCYearMonthDatePicker *picker = [YCYearMonthDatePicker new];
+picker.dateComfirmBlock = ^(NSString * _Nonnull year, NSString * _Nonnull month) {
+    
+};
+[picker showWithBeginDateStr:@"2020-01" endDateStr:@"2020-12"];
+```
 
-## Requirements
 
 ## Installation
 
