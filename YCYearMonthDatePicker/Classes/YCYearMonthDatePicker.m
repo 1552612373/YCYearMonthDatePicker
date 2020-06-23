@@ -230,4 +230,14 @@
     }
 }
 
+- (void)setCancelColor:(UIColor *)cancelColor {
+    _cancelColor = cancelColor;
+    [self.cancelButton setTitleColor:cancelColor forState:UIControlStateNormal];
+}
+
+- (void)setSureColor:(UIColor *)sureColor {
+    _sureColor = sureColor;
+    [self.sureButton setTitleColor:sureColor forState:UIControlStateNormal];
+}
+
 @end

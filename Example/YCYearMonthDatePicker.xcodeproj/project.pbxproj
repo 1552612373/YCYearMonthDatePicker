@@ -41,6 +41,7 @@
 		33BC4A43B6C5BC1AFD9CCC81 /* Pods_YCYearMonthDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCYearMonthDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECABAA498738CA0E9D984E6 /* Pods-YCYearMonthDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCYearMonthDatePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YCYearMonthDatePicker_Tests/Pods-YCYearMonthDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		470148685775BC267123C82B /* YCYearMonthDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCYearMonthDatePicker.podspec; path = ../YCYearMonthDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58991E8E24A1E35C00BA629B /* YCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCCommon.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YCYearMonthDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCYearMonthDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +149,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YCViewController.h */,
 				6003F5A6195388D20070C39A /* YCViewController.m */,
+				58991E8E24A1E35C00BA629B /* YCCommon.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +249,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "杨超";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = H97SBJZQR3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +499,7 @@
 			baseConfigurationReference = D270F2459FBE1E5FC4F576A2 /* Pods-YCYearMonthDatePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H97SBJZQR3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCYearMonthDatePicker/YCYearMonthDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "YCYearMonthDatePicker/YCYearMonthDatePicker-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 1AB1D93ED3087E671152C455 /* Pods-YCYearMonthDatePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H97SBJZQR3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCYearMonthDatePicker/YCYearMonthDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "YCYearMonthDatePicker/YCYearMonthDatePicker-Info.plist";

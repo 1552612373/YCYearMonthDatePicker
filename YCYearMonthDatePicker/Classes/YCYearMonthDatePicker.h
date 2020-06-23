@@ -19,10 +19,15 @@ typedef void(^DateComfirmBlock)(NSString *year, NSString *month);
 /// @param endDateStr 结束日期 YYYY-MM
 - (void)showWithBeginDateStr:(NSString *)beginDateStr endDateStr:(NSString *)endDateStr;
 
+/// 确认回调
+@property (nonatomic, copy) DateComfirmBlock dateComfirmBlock;
+
 /// 默认显示日期 yyyy-MM
 @property (nonatomic, copy) NSString *defaultDateStr;
 
-@property (nonatomic, copy) DateComfirmBlock dateComfirmBlock;
+@property (nonatomic, strong) UIColor *cancelColor;
+
+@property (nonatomic, strong) UIColor *sureColor;
 
 @end
 
